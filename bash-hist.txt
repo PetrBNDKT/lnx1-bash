@@ -1,0 +1,186 @@
+su
+apt update
+sudo apt update
+vim /etc/passwd
+sudo apt install vim
+vim /etc/passwd
+su
+sudo su
+cd /
+ls /
+ls -al /
+cd lib
+pwd
+cd
+cd /
+ls -al
+ls -al /bin
+ls -al /bin/
+ls -al /bin/ | wc -l
+ls -al /boot/
+ls -al
+ls -al /dev/tty*
+ls -al /dev/sda*
+ls -al
+ls -al /home/ubuntu/
+ls -al
+ls -al /lost+found/
+sudo ls -al /lost+found/
+ls -al /proc/
+ls -al
+ls -al /sbin/
+ls -al /sbin/ |wc -l
+ls -al
+ls -al /snap/
+ls -al /srv
+ls -al /srv/
+ls -al /tmp/
+ls -al
+ls -al /var/log/
+man man
+man ls
+ls --help
+cd
+ls -al
+ls -l
+ls -al /usr/bin/
+ls -l
+touch Downloads/
+ls -l
+touch new_file.txt
+ls -l
+echo hello world
+echo hello world > new_file.txt 
+cat new_file.txt 
+cat
+man cat
+ls --help
+ls -h
+tar -h
+tar --help
+tar -h
+tar --help
+man tar
+vim
+vim new_file.txt 
+ls -al /bin/
+ls -al /bin/ |less
+ls -al /bin/ | less
+wc
+wc -h
+wc --help
+ls -al /bin/ | wc -l
+ls -l /bin/ | wc -l
+ls -al
+ls -al /bin/ | less
+history
+history | grep tar
+history | grep tar > tar.txt
+l
+cat tar.txt 
+vim /var/log/dmesg 
+grep --help
+grep ACPI /var/log/dmesg 
+grep ACPI /var/log/
+grep -R ACPI /var/log/
+grep -Rw ACPI /var/log/
+grep -Rn ACPI /var/log/
+vim /var/log/dmesg 
+uname
+uname -a
+uname -h
+uname --help
+uname -v
+uname -i
+whoami
+man whoami 
+echo $USER
+echo $PATH
+export $PATH
+cd /media/ubuntu/VBox_GAs_7.0.12/
+l
+sudo ./runasroot.sh 
+./autorun.sh 
+ls -al
+vim autorun.sh 
+echo $PS1
+ls
+which ls
+echo $PATH
+ls -al /
+ls -al /usr/
+ls -al /usr/local/
+dfdefdfgd
+dffd
+cd /bin
+ls
+ln --help
+ln -s /usr/bin/ls dffd
+sudo ln -s /usr/bin/ls dffd
+sudo ln -s /usr/bin/ls /bin/dffd
+dffd
+ls -al /bin/d*
+ls -al /bin/dffd 
+sudo rm dffd 
+man head
+head /var/log/dmesg
+head -n 15 /var/log/dmesg
+tail -n 15 /var/log/dmesg
+cmp 
+cmp --help
+cd
+touch file1.txt file2.txt
+l
+echo hello world > file1.txt 
+echo hello world > file2.txt 
+cmp file1.txt file2.txt 
+echo hello world! >>file2.txt 
+cmp file1.txt file2.txt 
+man cmp
+vim file2.txt 
+cmp file1.txt file2.txt 
+diff file1.txt file2.txt 
+vim file2.txt 
+diff file1.txt file2.txt 
+vim file2.txt 
+sort --help
+sort file2.txt 
+sort file2.txt > file2.txt 
+cat file2.txt 
+vim file2.txt 
+sort file2.txt | cat 
+sort file2.txt | cat >> file2.txt 
+cat file2.txt 
+echo $PATH
+export PATH=/bin/
+echo $PATH
+sudo
+which ip
+export PATH=/sbin
+ls
+echo $PATH
+vim /etc/bash.bashrc 
+vim /etc/skel/.bashrc 
+vim /etc/skel/.profile 
+vim /etc/bash.bashrc 
+vim /etc/skel/.bashrc 
+vim ~/.bashrc 
+export PATH=/home/ubuntu:$PATH
+echo $PATH
+export PATH=/home/ubuntu:$PATH >> ~/.bashrc 
+echo $PATH
+vim ~/.bashrc 
+echo 'export PATH=/home/ubuntu:$PATH' >> ~/.bashrc 
+vim ~/.bashrc 
+echo $PATH
+vim ~/.bashrc 
+echo $PATH
+vim ~/.bashrc 
+vim .bash_history 
+vim /etc/profile
+vim .profile 
+vim /etc/environment
+l
+ll
+export PS="[\d \t \u@\h:\w ] $ "
+export PS1="[\d \t \u@\h:\w ] $ "
