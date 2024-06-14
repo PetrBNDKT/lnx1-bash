@@ -184,3 +184,322 @@ l
 ll
 export PS="[\d \t \u@\h:\w ] $ "
 export PS1="[\d \t \u@\h:\w ] $ "
+yum show iptables
+cat .ssh/id_ed25519
+:q
+cat .ssh/id_ed25519.pub 
+mkdir lnx1-bash-hist
+cd lnx1-bash-hist/
+echo "# lnx1-bash-hist" >> README.md
+git init
+sudo apt install git
+git init
+git add README.md 
+git commit -m 'first commit'
+git config --global user.name "Petr BENEDIKT"
+git config --global user.email "petr@bndkt.io"
+git commit -m 'first commit'
+git branch -M main
+git remote add origin git@github.com:PetrBNDKT/lnx-bash-hist.git
+git push -u origin main
+git push
+sudo apt-get install openssh
+apt search ssh
+sudo apt-get install ssh
+sudo apt-get install ssh -y
+vim .s
+l
+ll
+ssh-keygen -t ed25519 -C "petr@bndkt.io"
+vim .ssh/id_ed25519
+vim .ssh/id_ed25519.pub 
+ip -a
+ip a
+vim .ssh/config
+cd lnx1-bash-hist/
+git push
+git push -u origin main
+git push --set-upstream origin main
+cd ..
+git clone git@github.com:PetrBNDKT/lnx1-bash.git
+cd lnx1-bash
+touch bash-hist.txt
+git add bash-hist.txt 
+git commit -m 'added empty file'
+git push
+cat ~/.bash_history >> bash-hist.txt 
+less bash-hist.txt 
+git commit -m 'added content'
+git add .
+git commit -m 'added content'
+git push
+sudo apt update
+vim /etc/apt/sources.list
+apt list
+apt list | wc -l
+apt list
+sudo apt update
+apt list --upgradable 
+sudo apt upgrade
+sudo apt upgrade -y
+apt list --upgradable 
+sudo apt full-upgrade 
+vim /etc/bash_completion
+vim /etc/bash.bashrc 
+vim /etc/profile
+vim /etc/profile.d/bash_completion.sh 
+dpkg --get-selections 
+dpkg -L vim
+dpkg -I vim
+dpkg --get-selections | grep vim
+dpkg -I vim-runtime
+grep -Rnw -e "apt" /
+grep -Rnw -e "apt" /var/
+dpkg -I /var/cache/apt/archives/vim-common_2%3a8.2.3995-1ubuntu2.17_all.deb 
+grep -R ACPI /var/
+dpkg -S vim
+dpkg-reconfigure tzdata 
+sudo dpkg-reconfigure tzdata 
+sudo dpkg-reconfigure vim-runtime 
+ll /var/cache/apt/archives/
+apt clean 
+sudo apt clean 
+ll /var/cache/apt/archives/
+apt show docker.io
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+ll /etc/apt/
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+vim /etc/apt/keyrings/docker.asc 
+ll /etc/apt/keyrings/ 
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+ll /etc/apt/keyrings/ 
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+cat /etc/apt/sources.list
+cat /etc/apt/sources.list.d/docker.list 
+apt update
+sudo apt update
+apt list --upgradable 
+apt show docker-ce
+apt show docker.io 
+apt show containerd
+apt show containerd.io 
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+docker 
+docker ps
+sudo docker ps
+docker ps
+sudo docker ps
+cat /etc/services 
+ip --help
+man ip
+ip link show
+ip -a
+ip --all
+ip a
+nmcli device
+lspci
+lspci |fgrep Ethernet
+lspci |grep Ethernet
+which fgrep
+which grep
+man fgrep 
+man grep
+ll /usr/bin/fgrep 
+ll /usr/bin/grep 
+ll -i /usr/bin/grep 
+ll -i /usr/bin/fgrep 
+fgrep --help
+grep --help
+man grep
+grep --help
+man grep
+lspci |grep Ethernet
+lspci
+ip a
+sudo apt install net-tools
+ifconfig 
+dpkg-query -L net-tools 
+netstat 
+netstat | less
+man nestat
+man --help
+nestat --help
+netstat --help
+netstat -a
+netstat -an
+netstat -f
+netstat -o
+ifconfig 
+netstat -o
+netstat -f
+netstat --help
+netstat -i
+netstat -e -t 5
+netstat -e 
+netstat -e -t
+dpkg-query -L net-tools 
+vim /etc/hostname 
+vim /etc/hosts
+vim /etc/resolv.conf 
+systemctl status systemd-resolved.service 
+vim /etc/resolv.conf 
+vim /etc/networks 
+vim /etc/netconfig 
+vim /etc/network/if-up.d/ethtool 
+vim /etc/NetworkManager/system-connections/
+vim /etc/NetworkManager/NetworkManager.conf 
+vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf 
+vim /etc/netplan/01-network-manager-all.yaml 
+nmtui 
+systemctl status network
+systemctl status network.target 
+ping 172.16.20.115
+nslookup google.com
+nslookup 142.251.36.78
+nslookup seznam.cz
+nslookup 77.75.77.222
+dig seznam.cz
+dig prg03s10-in-f14.1e100.net
+dig 7
+dig seznam.cz
+sudo apt-get install traceroute 
+traceroute seznam.cz
+traceroute 77.75.79.222
+traceroute -w 10 77.75.79.222
+traceroute -w 5 77.75.79.222
+traceroute -w 5 google.com
+hostname
+hostnamectl 
+hostnamectl --help
+nmtui
+cat /etc/hostname 
+nmcli
+nmcli general
+nmcli --help
+nmcli n
+nmcli r
+nmcli c
+nmcli d show
+nmcli c down Wired\ connection\ 1 
+nmcli c
+nmcli c up Wired\ connection\ 1 
+nmcli c
+cd 
+mkdir nazev mezera
+l
+mkdir nazev\ mezera
+ll
+cd nazev\ mezera
+cd
+rm nazev
+rm -r nazev
+l
+ll
+open .
+nmcli d
+vim /etc/systemd/networkd.conf 
+netcat --help
+man netcat 
+nc -p 31337 -w 5 seznam.cz 42
+netstat --tulnp
+netstat -tulnp
+netstat --help
+ps
+who
+vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
+man sshd_config 
+systemctl restart sshd
+history | ssh
+history | grep ssh
+ssh-keygen --help
+ssh-keygen 
+ll .ssh/
+cat .ssh/authorized_keys 
+ssh -o VisualHostKey=yes
+ssh -o VisualHostKey=yes ubuntu-VirtualBox 
+ssh -o FingerprintHash=md5 ubuntu-VirtualBox 
+ssh -o FingerprintHash=sha256 ubuntu-VirtualBox 
+vim /etc/ssh/ssh_host_ecdsa_key.pub 
+sudo vim /etc/ssh/ssh_host_ecdsa_key.pub 
+sudo vim /etc/ssh/ssh_host_rsa_key.pub 
+systemctl restart sshd
+sudo vim /etc/ssh/ssh_host_rsa_key.pub 
+sudo vim /etc/ssh/ssh_host_ecdsa_key.pub 
+sudo vim /etc/ssh/ssh_host_ed25519_key.pub 
+systemctl restart sshd
+sudo vim /etc/ssh/ssh_host_ed25519_key.pub 
+sudo vim /etc/ssh/ssh_host_ecdsa_key.pub 
+sudo vim /etc/ssh/ssh_host_rsa_key.pub 
+sudo docker ps
+iptables -L
+sudo iptables -L
+apt search firewalld
+iptables -L
+sudo iptables -L
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -L
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -L
+sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+sudo iptables -L
+sudo iptables -A INPUT -p tcp --dport 10443 -j ACCEPT
+sudo iptables -L
+sudo iptables -A INPUT -j LOG --log-prefix "Dropped: "
+sudo iptables -A INPUT -j DROP
+sudo iptables -L
+sudo iptables -L --line-numbers
+sudo dmesg | grep "Dropped"
+sudo tail -f /var/log/syslog | grep "Dropped packet"
+sudo dmesg | grep "Dropped"
+sudo iptables -L
+sudo iptables -I INPUT 4 -p tcp --dport 22 -j ACCEPT
+sudo iptables -L
+apt list
+apt list --installed 
+apt list --installed | grep iptables
+sudo apt install iptables-persistent 
+iptables --help
+iptables -F
+sudo iptables -F
+sudo iptables -L
+sudo apt install iptables-persistent 
+vim /etc/iptables/rules.v4
+history 30
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -j LOG --log-prefix "Dropped: "
+sudo iptables -A INPUT -j DROP
+sudo iptables -L --line-numbers
+netfilter-persistent save
+sudo netfilter-persistent save
+vim /etc/iptables/rules.v4 
+sudo vim /etc/iptables/rules.v4 
+sudo reboot
+sudo ufw disable 
+sudo ufw deny ssh
+sudo ufw deny http
+sudo ufw enable
+sudo iptables -L --line-number
+sudo iptables -L --line-numbers
+sudo iptables -F
+sudo iptables -L --line-numbers
+sudo netfilter-persistent save
+vim /etc/iptables/rules.v4
+sudo vim /etc/iptables/rules.v4
+sudo apt install ufw
+systemctl status ufw
+ufw --help
+sudo ufw allow ssh
+sudo iptables -L
+sudo ufw status
+sudo ufw show added
+sudo ufw enable 
+sudo iptables -L
+sudo ufw enable 
+reboot
