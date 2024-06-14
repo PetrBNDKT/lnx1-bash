@@ -503,3 +503,4 @@ sudo ufw enable
 sudo iptables -L
 sudo ufw enable 
 reboot
+ll zkouska1/
