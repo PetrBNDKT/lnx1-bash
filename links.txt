@@ -1,0 +1,125 @@
+LNX1
+
+
+		Úvod
+    * 		Vznik, historie a principy OS Linux
+        * https://www.geeksforgeeks.org/linux-history/
+        * https://en.wikipedia.org/wiki/Linux
+        * https://www.geeksforgeeks.org/architecture-of-linux-operating-system/
+
+    * 		Filozofie vývoje software Linux, distribuce, open source licence
+        * https://en.wikipedia.org/wiki/Unix_philosophy
+        * https://choosealicense.com/
+        * https://choosealicense.com/licenses/gpl-3.0/
+        * https://en.wikipedia.org/wiki/Open_source
+        * https://en.wikipedia.org/wiki/List_of_Linux_distributions
+
+		Instalace a software
+    * 		Dostupnost a způsoby instalace Linuxové distribuce
+        * https://www.debian.org/releases/stable/amd64/ch02s04.en.html
+        * https://www.debian.org/doc/manuals/debian-handbook/index.en.html
+        * https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.en.html
+        * https://www.educba.com/redhat-vs-debian/
+        * https://www.tecmint.com/redhat-vs-debian/
+        * https://www.trickyenough.com/debian-vs-red-hat/
+        * https://itsfoss.com/redhat-vs-ubuntu/
+        * volba správné architektury, stažení instalačního ISO (minimal, server, desktop atp.)
+        * https://ubuntu.com/download
+        * https://www.debian.org/distrib/
+        * https://debian-handbook.info/browse/cs-CZ/stable/index.html
+
+    * 		Instalační nastavení a instalace Linuxu
+        * https://cloudinfrastructureservices.co.uk/install-ubuntu-20-04-over-network-installation/
+        * https://www.debian.org/doc/manuals/debian-handbook/sect.automated-installation.en.html#sect.fai
+        * https://www.debian.org/releases/bookworm/amd64/apbs04.en.html#preseed-network
+        * https://www.debian.org/releases/stable/amd64/index.en.html
+        * https://www.debian.org/releases/stable/amd64/ch05s01#boot-tftp-x86
+        * https://fai-project.org/
+
+    * 		Používání příkazů yum a dnf, případně apt
+        * https://www.debian.org/doc/manuals/debian-handbook/sect.automatic-upgrades.en.html#id-1.9.24.10
+        * 
+    * 		Správa SW, instalace balíčků a aktualizací
+        * https://www.debian.org/doc/manuals/debian-handbook/sect.apt-get.en.html
+        * https://www.debian.org/doc/manuals/apt-guide/index.en.html
+        * https://itsfoss.com/apt-command-guide/
+        * https://www.tecmint.com/apt-command-in-linux/
+        * https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux
+        * https://debian-handbook.info/browse/cs-CZ/stable/sect.manipulating-packages-with-dpkg.html
+
+    * 		Práce s repozitáři (repos a sources)
+        * https://docs.docker.com/desktop/install/ubuntu/
+        * https://docs.docker.com/engine/install/debian/
+        * https://docs.docker.com/engine/install/ubuntu/
+        * https://wiki.debian.org/SourcesList
+        * https://wiki.debian.org/DebianUpgrade
+
+		Základní nastavení sítě
+    * 		Nastavení jména a dalších TCPIP parametrů, použití NetworkManageru
+        * https://linuxconfig.org/ubuntu-22-04-network-configuration
+        * https://www.debian.org/doc/manuals/debian-reference/ch05.en.html
+        * https://phoenixnap.com/kb/linux-network-commands
+        * 
+    * 		Základní nastavení systémového firewallu, použití FirewallD
+        * https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04
+        * https://computingforgeeks.com/install-and-use-firewalld-on-ubuntu/
+        * https://phoenixnap.com/kb/iptables-tutorial-linux-firewall
+
+		Start a vypnutí systému
+    * 		Popis startu systému a jeho fází
+        * https://www.howtogeek.com/196655/how-to-configure-the-grub2-boot-loaders-settings/
+        * https://www.tecmint.com/best-linux-boot-loaders/
+        * 
+    * 		Spouštění procesů po startu, nastavení a ovládání systemd, porovnání s jinými typy init procesů
+        * https://www.debian.org/doc/manuals/debian-reference/ch03.en.html
+        * https://en.wikipedia.org/wiki/Systemd
+        * 
+
+    * 		Ovládání služeb a dalších nastavení příkazem systemctl, start GUI
+        * https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
+        * https://betterstack.com/community/guides/logging/how-to-control-systemd-with-systemctl/
+        * 
+
+		Disky a souborové systémy
+    * 		Práce se souborovými systémy, typy, vytváření, montování, zápis do konfigurace systému
+        * https://likegeeks.com/linux-file-system/
+        * https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy
+        * https://wiki.debian.org/LVM
+        * https://howto.biapy.com/en/debian-gnu-linux/system/setup/setup-and-use-the-logical-volume-manager-lvm-on-debian
+
+		Sledování systému
+    * 		Umístění a práce s logy systému a aplikací
+        * https://phoenixnap.com/kb/how-to-view-read-linux-log-files
+
+    * 		Rotace a údržba logů
+        * https://www.tecmint.com/install-logrotate-to-manage-log-rotation-in-linux/
+        * https://www.digitalocean.com/community/tutorials/how-to-view-and-configure-linux-logs-on-ubuntu-debian-and-centos
+        * https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs
+        * https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-20-04
+
+    * 		Sledování vytížení základních částí systému (procesor, paměť, disky, síť)
+        * https://unix.stackexchange.com/questions/128953/how-to-display-top-results-sorted-by-memory-usage-in-real-time
+
+		Automatické spouštění úloh
+    * 		Nástroje pro automatizované spouštění úloh
+        * https://linuxize.com/post/at-command-in-linux/
+        * https://linuxconfig.org/how-to-run-commands-periodically-with-anacron-on-linux
+        * 
+    * 		at, crontab a anacrontab
+        * https://crontab.guru/examples.html
+        * https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
+        * 
+
+		Uživatelé, skupiny a zabezpečení
+    * 		Uživatelské a skupinové účty, správa nastavení a hesel
+        * https://www.itprotoday.com/linux/linux-user-and-group-management-security-best-practices
+        * https://www.linux.com/topic/desktop/how-manage-users-groups-linux/
+
+    * 		Nastavení a zabezpečení přístupu do systému Linux,
+        * https://www.comptia.org/blog/set-linux-permissions-and-access-control-lists
+
+    * 		Použití sshd, ověřování uživatelů pomocí kryptografických klíčů
+        * https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+
+    * 		Možnosti sledování aktivit uživatelů
+        * https://ostechnix.com/monitor-user-activity-linux/
