@@ -125,3 +125,8 @@ LNX1
 
     * 		Možnosti sledování aktivit uživatelů
         * https://ostechnix.com/monitor-user-activity-linux/
+
+
+    * instalace security packages
+        * https://access.redhat.com/solutions/10021
+        * https://askubuntu.com/questions/194/how-can-i-install-just-security-updates-from-the-command-line
