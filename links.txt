@@ -114,6 +114,8 @@ LNX1
     * 		Uživatelské a skupinové účty, správa nastavení a hesel
         * https://www.itprotoday.com/linux/linux-user-and-group-management-security-best-practices
         * https://www.linux.com/topic/desktop/how-manage-users-groups-linux/
+        * https://www.redhat.com/sysadmin/access-control-lists
+        * https://www.geeksforgeeks.org/linux-setfacl-command-with-example/
 
     * 		Nastavení a zabezpečení přístupu do systému Linux,
         * https://www.comptia.org/blog/set-linux-permissions-and-access-control-lists
